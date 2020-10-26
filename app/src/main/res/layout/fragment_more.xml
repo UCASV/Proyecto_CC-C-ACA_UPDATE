@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".main_views.MoreFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundWhite"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/nosotrosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_nosotros"
+            android:textSize="@dimen/textSize_20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/separador2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/separador_size"
+            android:background="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nosotrosTitle" />
+
+        <TextView
+            android:id="@+id/objetivosTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:focusable="true"
+            android:text="@string/objetivo"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/nosotrosTitle"
+            app:layout_constraintTop_toBottomOf="@+id/separador2" />
+
+        <TextView
+            android:id="@+id/acercaDeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:focusable="true"
+            android:text="@string/acerca_de"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/objetivosTxt"
+            app:layout_constraintTop_toBottomOf="@+id/objetivosTxt" />
+
+        <TextView
+            android:id="@+id/quienesSomosTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:focusable="true"
+            android:text="@string/quienes_somos"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/acercaDeTxt"
+            app:layout_constraintTop_toBottomOf="@+id/acercaDeTxt" />
+
+        <TextView
+            android:id="@+id/contactoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:text="@string/redes_sociales_y_contacto"
+            android:textSize="@dimen/textSize_20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/nosotrosTitle"
+            app:layout_constraintTop_toBottomOf="@+id/quienesSomosTxt" />
+
+        <View
+            android:id="@+id/separador3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/separador_size"
+            android:layout_marginBottom="@dimen/margin_30dp"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toTopOf="@+id/Aviso_txt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/separador"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/separador_size"
+            android:background="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contactoTitle" />
+
+        <TextView
+            android:id="@+id/emailTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:clickable="true"
+            android:text="@string/email"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintBottom_toBottomOf="@+id/emailtxt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/emailtxt"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/Aviso_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_wide"
+            android:clickable="true"
+            android:text="@string/aviso_txt"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/emailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="@string/emailtxt"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/quienesSomosTxt"
+            app:layout_constraintTop_toBottomOf="@+id/contactoTitle"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/Instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="@string/instagram"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/emailtxt"
+            app:layout_constraintTop_toBottomOf="@+id/emailTxt" />
+
+        <TextView
+            android:id="@+id/Facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginBottom="@dimen/margin_30dp"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="@string/fb"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintBottom_toTopOf="@+id/separador3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/Instagram"
+            app:layout_constraintTop_toBottomOf="@+id/Instagram" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

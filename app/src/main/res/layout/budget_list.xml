@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/backgroundWhite">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/presu1card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="2dp">
+
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="0dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="@dimen/margin_wide"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/margin_wide"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_laptops"
+            tools:srcCompat="@drawable/ic_laptops" />
+
+        <TextView
+            android:id="@+id/desc_Noticia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_margin"
+            android:layout_marginTop="@dimen/TitulosSize"
+            android:layout_marginEnd="@dimen/small_margin"
+            android:layout_marginBottom="@dimen/margin_wide"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/default_desc_art"
+            android:textAlignment="center"
+            android:textColor="@color/blueColor"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintBottom_toTopOf="@+id/separador4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img2" />
+
+        <TextView
+            android:id="@+id/titulo_noticia"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/card_margin"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/default_title_art"
+            android:textAlignment="center"
+            android:textColor="@color/blueColor"
+            android:textSize="@dimen/small_text"
+            app:layout_constraintBottom_toTopOf="@+id/desc_Noticia"
+            app:layout_constraintEnd_toEndOf="@+id/img2"
+            app:layout_constraintStart_toStartOf="@+id/img2"
+            app:layout_constraintTop_toBottomOf="@+id/img2" />
+
+        <View
+            android:id="@+id/separador4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/card_margin"
+            android:layout_marginEnd="@dimen/card_margin"
+            android:background="@color/blueColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="NotSibling" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
