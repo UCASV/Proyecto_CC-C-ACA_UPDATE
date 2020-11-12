@@ -115,7 +115,7 @@
     <fragment
         android:id="@+id/categories_laptops"
         android:name="com.mauricio.moviles_bg2m.categories.CategoriesCompCompleta"
-        android:label="Laptops"
+        android:label="Calentamiento Global"
         tools:layout="@layout/fragment_categories_inside">
         <action
             android:id="@+id/action_categories_laptops_to_descriptionProductFragment"
@@ -125,7 +125,7 @@
     <fragment
         android:id="@+id/descriptionProductFragment"
         android:name="com.mauricio.moviles_bg2m.moreFragmentViews.DescriptionProductFragment"
-        android:label="@string/name_descInfoFragment"
+        android:label="Calentamiento Global"
         tools:layout="@layout/fragment_product_description">
         <argument
             android:name="imageUrl"

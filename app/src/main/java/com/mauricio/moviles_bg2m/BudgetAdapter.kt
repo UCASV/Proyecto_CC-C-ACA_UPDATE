@@ -27,7 +27,7 @@ class BudgetAdapter(private val budgets: MutableList<Products>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-            Picasso.with(context).load(R.drawable.ic_cpu).placeholder(R.drawable.ic_cpu)
+            Picasso.with(context).load(R.drawable.mont).placeholder(R.drawable.mont)
                 .into(holder.bImg2)
 
     }
