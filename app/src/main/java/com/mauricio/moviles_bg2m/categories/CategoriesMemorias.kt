@@ -22,15 +22,10 @@ class CategoriesMemorias : Fragment() {
     private lateinit var binding: FragmentCategoriesInsideBinding
     private val mMemoriesIds = listOf<String>(
         "-MBJ0PxC0_isNUI__n4O",
-        "-MBJ0PxC0_isNUI__n4O",
         "-MBJ0cXxdCCMhyAF1LCh",
         "-MBJ0z2aK2lyH73M0qyE",
         "-MBJ19CATUPOqFqJIfGx",
-        "-MBJ1NlKnwPJJE2AQwbk",
-        "-MBJ1WYgz3u_DgwFbN5j",
-        "-MBJ1sIN4D0RxrKSZdGG",
-        "-MBJ2-rNNI-78sl8dn5a",
-        "-MBJ2BEUjcuMTsghl-in"
+        "-MBJ0mVmJYqchMYpnev1"
     )
     val fReference = "memories"
 

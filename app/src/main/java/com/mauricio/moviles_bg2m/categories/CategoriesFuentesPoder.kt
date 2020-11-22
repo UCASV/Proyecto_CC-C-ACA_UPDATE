@@ -26,12 +26,7 @@ class CategoriesFuentesPoder : Fragment() {
         "-MBMJDdXXYerPIllAhqF",
         "-MBMJ_PqKRrsRNAjpvgO",
         "-MBMJvO2SUBLa1YZpv0U",
-        "-MBMKG88zkW4PJm5ymr8",
-        "-MBMKRYj1Fpqq85tzlP1",
-        "-MBMKboALjoDBsMZuvqW",
-        "-MBMKboALjoDBsMZuvqW",
-        "-MBMKuMa-aZtRLRUfheq",
-        "-MBML6eo5vvbg51c9vjW"
+        "-MBMKG88zkW4PJm5ymr8"
     )
     val fReference = "powersource"
 

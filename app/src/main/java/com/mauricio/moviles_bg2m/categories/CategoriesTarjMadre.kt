@@ -27,12 +27,7 @@ class CategoriesTarjMadre : Fragment() {
         "-MB71H3dUyYBykr_yzDt",
         "-MB72IPG_-ZgD7FZFAEl",
         "-MB72jvfpRaK6b_5-D32",
-        "-MB73AIoDi_UmPvZo_5G",
-        "-MB73f_dNpUxBNgeKFX0",
-        "-MB742mFgYov-QYizT3M",
-        "-MB74Ocyc531lYJVEiNk",
-        "-MB74n_VnZLSVkC_qUyt",
-        "-MB759J4bgjhAy-G7lUf"
+        "-MB73AIoDi_UmPvZo_5G"
     )
     val fReference = "motherboard"
 

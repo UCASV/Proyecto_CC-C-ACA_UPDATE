@@ -35,7 +35,10 @@ class ProductAdapter(
 
         Picasso.with(context).load(product.imageUrl).into(holder.pImage)
         holder.pName.text = product.title_art
-        holder.pdesc.text = product.info_art
+
+        var str : String = product.info_art.replace("|","")
+
+        holder.pdesc.text = str
 
         holder.itemView.setOnClickListener { view: View ->
             when {

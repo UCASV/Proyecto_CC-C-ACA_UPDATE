@@ -56,9 +56,10 @@ class DescriptionProductFragment() : Fragment() {
                 Picasso.with(context).load(productsList[0].imageUrl).into(binding.imgArt)
                 //viewModel.image.value = binding.imgProductoDesc
 
+                var str : String = productsList[0].info_art.replace("|","\n\n")
 
                 binding.tituloArtPd.text = productsList[0].title_art
-                binding.infoArticulo.text = productsList[0].info_art
+                binding.infoArticulo.text = str
 
             }
 

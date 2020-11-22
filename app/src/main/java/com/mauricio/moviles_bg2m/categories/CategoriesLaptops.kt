@@ -29,12 +29,8 @@ class CategoriesCompCompleta : Fragment() {
         "-MB70dj9-MAbrotwgZwl",
         "-MB71aTxi2tAECrxLefC",
         "-MB72m40Fv4I9d_-44vP",
-        "-MB73ct0mI6S_69p_Gft",
-        "-MBHOZo1M7YkKHoT8r7D",
-        "-MB751UdoPFGTEQvrpT4",
-        "-MB75qHQ3_RcPreBTNSX",
-        "-MB76RKvaCyQwoYWEF95",
-        "-MB76pYz7Va0AN7MRlQL"
+        "-MB73ct0mI6S_69p_Gft"
+
     )
     val fReferene = "laptops"
 

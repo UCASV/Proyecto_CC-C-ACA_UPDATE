@@ -29,13 +29,7 @@ class CategoriesTarjVideo : Fragment() {
         "-MBJ2enLaXiAxaCwlhtL",
         "-MBJ2ndbmQoIXabY6i8Z",
         "-MBJ2wmmS6TTY50ppI0L",
-        "-MBJ370gWRow2K5Bknkr",
-        "-MBJ3Etlss_nwld3YOIA",
-        "-MBJ3NT0q6OIwKJ0Bh3F",
-        "-MBJ3UiE3W8SENIHEbnz",
-        "-MBJ3dd8CYBy_7LzjmJM",
-        "-MBJ3nuwclWVnG1TYp_D",
-        "-MBJ3wWMO7XeAjWnFa2y"
+        "-MBJ370gWRow2K5Bknkr"
     )
     val fReference = "videocard"
 

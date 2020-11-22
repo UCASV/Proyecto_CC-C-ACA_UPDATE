@@ -29,12 +29,7 @@ class CategoriesProcesadores : Fragment() {
         "-MBIrKv5h3Tbsdb1uzlG",
         "-MBIrtWU9dPyiEZg7Nyk",
         "-MBIsLhX3pyk3k_lOJR0",
-        "-MBIszE-UEEPWKYwrCDQ",
-        "-MBItRFlWZrCXxTWGaVL",
-        "-MBItu2Nq2dnbKgW7h5U",
-        "-MBIuLU7mEmKXQcwHHj0",
-        "-MBIuiieNA0h7yOpnn0o",
-        "-MBIv4PV1VO1spcvn6FN"
+        "-MBIszE-UEEPWKYwrCDQ"
     )
     val fReference = "processor"
 

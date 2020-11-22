@@ -6,7 +6,7 @@
     <dimen name="medium_margin_24dp">24dp</dimen>
     <dimen name="margin_30dp">30dp</dimen>
     <dimen name="bigMargin_60dp">60dp</dimen>
-    <dimen name="textSize_24sp">24sp</dimen>
+    <dimen name="textSize_24sp">18sp</dimen>
     <dimen name="TitulosSize">20sp</dimen>
     <dimen name="OpcionesSize">14sp</dimen>
     <dimen name="ButtonSIze">22dp</dimen>

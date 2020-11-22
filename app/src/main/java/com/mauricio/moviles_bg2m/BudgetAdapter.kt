@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.budget_list.view.*
 
-class BudgetAdapter(private val budgets: MutableList<Products>) :
+class BudgetAdapter(private val products: MutableList<Products>) :
     RecyclerView.Adapter<BudgetAdapter.ViewHolder>() {
 
     private lateinit var context: Context
@@ -23,19 +23,22 @@ class BudgetAdapter(private val budgets: MutableList<Products>) :
         return ViewHolder(view)
     }
 
-    override fun getItemCount(): Int = budgets.size
+    override fun getItemCount(): Int = products.size
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        val product = products[position]
 
-            Picasso.with(context).load(R.drawable.mont).placeholder(R.drawable.mont)
-                .into(holder.bImg2)
+            Picasso.with(context).load(product.imageUrl).into(holder.bImg2)
+            var str : String = product.info_art.replace("|","")
+
+             holder.pdesc.text = str
 
     }
 
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val bName: TextView = itemView.titulo_noticia
-        val bdesc: TextView = itemView.desc_Noticia
+        val pName: TextView = itemView.titulo_noticia
+        val pdesc: TextView = itemView.desc_Noticia
 
         val bImg2: ImageView = itemView.img2
     }

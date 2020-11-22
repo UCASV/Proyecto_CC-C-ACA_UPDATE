@@ -21,16 +21,16 @@ class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
     private val mDestArtIds = listOf<String>(
-        "-MBM9ZrgNCv08p_r0_Ly",
+        "-MB7-TQlWk3CP7jJTn3B",
+        "-MB72m40Fv4I9d_-44vP",
+        "-MBIrKv5h3Tbsdb1uzlG",
+        "-MBIsLhX3pyk3k_lOJR0",
+        "-MBJ0mVmJYqchMYpnev1",
+        "-MBJ2wmmS6TTY50ppI0L",
         "-MBMA2Sqx18qmQTn85Uz",
-        "-MBMAVEkaVuxvRlC3vko",
+        "-MBMJ_PqKRrsRNAjpvgO",
         "-MBMB1M_q744LKJrTojy",
-        "-MBMBGLNzUA3RpadNR79",
-        "-MBMBUdHmW4ucUx-tuR9",
-        "-MBMBnwyzzmqzsw6UuRD",
-        "-MBMCABQi5-LBs8Yo05c",
-        "-MBMCKN7FjRYSje5FhQZ",
-        "-MBMCYTzaWhCPpvg4PMi"
+        "-MB72IPG_-ZgD7FZFAEl"
     )
 
     override fun onCreateView(
@@ -45,38 +45,34 @@ class HomeFragment : Fragment() {
             .build()
 
         val service = retrofit.create(ApiService::class.java)
-        var BudgetList : MutableList<Products> = ArrayList()
+        var productsList : MutableList<Products> = ArrayList()
 
-        var i = 0
-        var n= (0..4).random()
-        var code = mDestArtIds[n]
-
-        while (i < 5){
-            service.getBudgets(code).enqueue(object : Callback<Products> {
+        mDestArtIds.forEach() {
+            service.getProducts(it).enqueue(object : Callback<Products> {
                 override fun onResponse(
                     call: Call<Products>?, response: Response<Products>?
                 ) {
-                    val BudgetData = response?.body()
-                    BudgetList.add(BudgetData!!)
-                    showData(BudgetList)
-                    //d("BUDGETS", "" + BudgetData)
+                    val productsData = response?.body()
+                    productsList.add(productsData!!)
+                    showData(productsList)
+                    //d("products", "GetAllProducts " + productsData)
 
                 }
 
                 override fun onFailure(call: Call<Products>, t: Throwable?) {
                     t?.printStackTrace()
                 }
+
             })
-            i++
         }
 
         return binding.root
     }
 
-    private fun showData(Budgets: MutableList<Products>) {
+    private fun showData(products: MutableList<Products>) {
         recycler_view_budgets.apply{
             layoutManager = LinearLayoutManager(activity)
-            adapter = BudgetAdapter(Budgets)
+            adapter = BudgetAdapter(products)
         }
     }
 }
