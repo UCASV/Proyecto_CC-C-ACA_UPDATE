@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PC-BUDGET</string>
+    <string name="app_name">TREE C.C</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -142,4 +142,5 @@
     <string name="instagram">"Instagram: rover_retirado"</string>
     <string name="fb">Facebook: Un Rover Retirado.</string>
     <string name="aviso_txt">Has click sobre cualquier texto para mas informacion/copiar el correo o redirigirte a la pagina.</string>
+    <string name="Click_here">Presiona la imagen para abrirla en el navegador.</string>
 </resources>

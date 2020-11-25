@@ -18,7 +18,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 
 class HomeFragment : Fragment() {
-
+    private lateinit var viewModel: ProductDescViewModel
     private lateinit var binding: FragmentHomeBinding
     private val mDestArtIds = listOf<String>(
         "-MB7-TQlWk3CP7jJTn3B",

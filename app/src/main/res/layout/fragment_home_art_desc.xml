@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".moreFragmentViews.HomeArtDesc">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/img_art"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginStart="@dimen/ButtonSIze"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/ButtonSIze"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/titulo_art_pd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/card_margin"
+                android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginEnd="@dimen/card_margin"
+                android:fontFamily="@font/montserrat"
+                android:textAlignment="center"
+                android:textColor="@color/blueColor"
+                android:textSize="@dimen/textSize_20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_art" />
+
+            <TextView
+                android:id="@+id/info_articulo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/blueColor"
+                android:textSize="@dimen/OpcionesSize"
+                app:layout_constraintEnd_toEndOf="@+id/titulo_art_pd"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/titulo_art_pd"
+                app:layout_constraintTop_toBottomOf="@+id/titulo_art_pd" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>
