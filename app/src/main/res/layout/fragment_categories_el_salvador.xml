@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".categories.CategoriesElSalvador">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/santana"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_weight="1"
+            android:background="@drawable/santana_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintStart_toStartOf="@+id/ahuachapan"
+            app:layout_constraintTop_toBottomOf="@+id/ahuachapan" />
+
+        <Button
+            android:id="@+id/ahuachapan"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginStart="@dimen/card_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginEnd="@dimen/card_margin"
+            android:layout_weight="1"
+            android:background="@drawable/ahuachapan_btn"
+            android:drawablePadding="0dp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/sonsonate"
+            app:layout_constraintEnd_toStartOf="@+id/sonsonate"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/sonsonate"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginEnd="@dimen/card_margin"
+            android:layout_weight="1"
+            android:background="@drawable/sonsonate_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/lalibertad"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_weight="1"
+            android:background="@drawable/lalibertad_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintEnd_toEndOf="@+id/sonsonate"
+            app:layout_constraintTop_toBottomOf="@+id/sonsonate" />
+
+        <Button
+            android:id="@+id/chalatenango"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_weight="1"
+            android:background="@drawable/chalatenango_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintStart_toStartOf="@+id/santana"
+            app:layout_constraintTop_toBottomOf="@+id/santana" />
+
+        <Button
+            android:id="@+id/sansalvador"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_weight="1"
+            android:background="@drawable/sansalvador_btn"
+            android:fontFamily="@font/montserrat"
+            android:shadowColor="@color/backgroundWhite"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintEnd_toEndOf="@+id/lalibertad"
+            app:layout_constraintTop_toBottomOf="@+id/lalibertad" />
+
+        <Button
+            android:id="@+id/cuscatlan"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_weight="1"
+            android:background="@drawable/cuscatlan_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintEnd_toEndOf="@+id/sansalvador"
+            app:layout_constraintTop_toBottomOf="@+id/sansalvador" />
+
+        <Button
+            android:id="@+id/lapaz"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_weight="1"
+            android:background="@drawable/lapaz_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintStart_toStartOf="@+id/chalatenango"
+            app:layout_constraintTop_toBottomOf="@+id/chalatenango" />
+
+        <Button
+            android:id="@+id/cabanas"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/cabanas_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintEnd_toEndOf="@+id/cuscatlan"
+            app:layout_constraintTop_toBottomOf="@+id/cuscatlan" />
+
+        <Button
+            android:id="@+id/sanvicente"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/sanvicente_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintStart_toStartOf="@+id/lapaz"
+            app:layout_constraintTop_toBottomOf="@+id/lapaz" />
+
+        <Button
+            android:id="@+id/usulutan"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/usulutan_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/morazan"
+            app:layout_constraintTop_toBottomOf="@+id/morazan" />
+
+        <Button
+            android:id="@+id/sanmiguel"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/sanmiguel_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/launion"
+            app:layout_constraintTop_toBottomOf="@+id/launion" />
+
+        <Button
+            android:id="@+id/morazan"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/morazan_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintEnd_toEndOf="@+id/cabanas"
+            app:layout_constraintTop_toBottomOf="@+id/cabanas" />
+
+        <Button
+            android:id="@+id/launion"
+            android:layout_width="198dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/launion_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/backgroundWhite"
+            android:textSize="@dimen/textSize_20sp"
+            app:layout_constraintStart_toStartOf="@+id/sanvicente"
+            app:layout_constraintTop_toBottomOf="@+id/sanvicente" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+</layout>
