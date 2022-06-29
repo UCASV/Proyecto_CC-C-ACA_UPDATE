@@ -23,11 +23,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 class CategoriesLaUnion : Fragment() {
     lateinit var binding: FragmentCategoriesInsideBinding
     private val mStoragesIds = listOf<String>(
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01"
+        "-DeptoSV-UN01",
+        "-DeptoSV-UN02",
+        "-DeptoSV-UN03",
+        "-DeptoSV-UN04",
+        "-DeptoSV-UN05"
     )
     val fReference = "launion"
 

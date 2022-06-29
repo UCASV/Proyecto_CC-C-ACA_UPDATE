@@ -24,10 +24,10 @@ class CategoriesAhuachapan : Fragment() {
     lateinit var binding: FragmentCategoriesInsideBinding
     private val mStoragesIds = listOf<String>(
         "-DeptoSV-AH01",
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01"
+        "-DeptoSV-AH02",
+        "-DeptoSV-AH03",
+        "-DeptoSV-AH04",
+        "-DeptoSV-AH05"
     )
     val fReference = "ahuachapan"
 
