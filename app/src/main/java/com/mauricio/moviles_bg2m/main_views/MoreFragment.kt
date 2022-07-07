@@ -104,12 +104,22 @@ class MoreFragment : Fragment() {
         }
 
         if (tipo == 2) {
-            text = "Bryan Alexis Orellana Cabrera #00049318\n\n" +
+            text = "===================================\n\n" +
+                    "Ultima Actualizacion por:\n\n" +
+                    "Bryan Alexis Orellana Cabrera #00049318\n\n" +
                     "Miguel Ernesto Rivas Serrano #00087518\n\n" +
-                    "Luis Gustavo Escovar Hernandez #00091318\n\n" +
                     "Jesus Antonio Alvarado Gonzalez #00144318\n\n" +
                     "Gabriel Enrique Gonzalez Rodriguez #00199518\n\n" +
-                    "Guillermo Andres Salazar Barreda #00217218"
+                    "Oscar Isai Aldana Cruz #00153818\n\n\n" +
+                    "===================================\n\n" +
+                    "Creditos a los creadores de la primer versión:\n\n" +
+                    "Bryan Alexis Orellana Cabrera #00049318\n\n" +
+                    "Miguel Ernesto Rivas Serrano #00087518\n\n" +
+                    "Luis Gustavo Escobar Hernandez #00091318\n\n" +
+                    "Jesus Antonio Alvarado Gonzalez #00144318\n\n" +
+                    "Gabriel Enrique Gonzalez Rodriguez #00199518\n\n" +
+                    "Guillermo Andres Salazar Barreda #00217218\n\n" +
+                    "==================================="
             titulo = "¿Quienes Somos?"
         }
         val builder = AlertDialog.Builder(this.context)

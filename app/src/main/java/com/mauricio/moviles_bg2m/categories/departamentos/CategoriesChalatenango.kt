@@ -23,11 +23,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 class CategoriesChalatenango : Fragment() {
     lateinit var binding: FragmentCategoriesInsideBinding
     private val mStoragesIds = listOf<String>(
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01",
-        "-DeptoSV-AH01"
+        "-DeptoSV-CH01",
+        "-DeptoSV-CH02",
+        "-DeptoSV-CH03",
+        "-DeptoSV-CH04",
+        "-DeptoSV-CH05"
     )
     val fReference = "chalatenango"
 
