@@ -24,7 +24,7 @@ class CategoriesCabanas : Fragment() {
     lateinit var binding: FragmentCategoriesInsideBinding
     private val mStoragesIds = listOf<String>(
         "-DeptoSV-CA01",
-        "-DeptoSV-CA04",
+        "-DeptoSV-CA02",
         "-DeptoSV-CA03",
         "-DeptoSV-CA04",
         "-DeptoSV-CA05"
